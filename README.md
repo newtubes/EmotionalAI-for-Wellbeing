@@ -91,3 +91,12 @@ text3 = "Este día es perfecto, la música resuena con mi alma."
 print(f"Texto 1: '{text1}' -> Sentimiento: {analyze_text_sentiment(text1)}")
 print(f"Texto 2: '{text2}' -> Sentimiento: {analyze_text_sentiment(text2)}")
 print(f"Texto 3: '{text3}' -> Sentimiento: {analyze_text_sentiment(text3)}")
+
+
+```mermaid
+graph TD
+    A[Texto de Usuario] --> B(Análisis con TextBlob)
+    A --> C(Análisis con NLTK/VADER)
+    B --> D[Resultado: Polaridad/Subjetividad]
+    C --> E[Resultado: Emociones Detalladas]
+    D & E --> F[Recomendación Personalizada]
