@@ -1,0 +1,25 @@
+# 📦 Análisis de Texto y NLP
+textblob==0.17.1          # Análisis de sentimientos sencillo
+nltk==3.8.1               # Procesamiento avanzado (VADER, tokenización)
+spacy==3.7.2              # (Opcional) Para NLP avanzado (entidades, dependencias)
+python-dotenv==1.0.0      # Manejo de variables de entorno
+
+# 🚀 API y Servidor
+fastapi==0.109.0          # Para crear el API HTTP (opcional si integrarás backend)
+uvicorn==0.27.0           # Servidor ASGI para FastAPI
+pydantic==2.5.2           # Validación de datos (usado por FastAPI)
+
+# 📊 Visualización y Datos (Opcional)
+pandas==2.0.3             # Manipulación de datos
+matplotlib==3.7.2         # Gráficos (ej. evolución emocional)
+wordcloud==1.9.2          # Nubes de palabras (visualización)
+
+# 🧪 Testing y Calidad de Código
+pytest==7.4.4             # Pruebas unitarias
+pytest-cov==4.1.0         # Reporte de cobertura de tests
+mypy==1.5.1               # Chequeo de tipos estático
+flake8==6.1.0             # Linter para estilo de código
+
+# 🔄 Utilidades
+logging==0.4.9.6          # Logger estándar (ya incluido en Python)
+tqdm==4.66.1              # Barras de progreso (útil para procesar datasets)
