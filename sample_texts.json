@@ -1,0 +1,4 @@
+[
+    {"text": "Hoy fue un día agotador, necesito descansar.", "expected_emotion": "negative"},
+    {"text": "¡Acabo de terminar mi proyecto y quedó genial!", "expected_emotion": "positive"}
+]
